@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# IDEA
+.idea/
+target/
+
+# Dependency directories (remove the comment below to include it)
+/server/vendor/
+/server/bin/
+/server/controller/cloud/aliyun/api_response.gen.go
+/server/controller/recorder/cache/cache_test.db
+/server/libs/geo/ip_info.go
+/server/libs/kubernetes/watcher.gen.go
+/cli/vendor/
+/cli/bin/
+/server/libs/zerodoc/pb/metric.proto
+/server/libs/datatype/pb/flow_log.proto
+/server/libs/stats/pb/stats.proto
+/server/libs/stats/pb/stats.pb.go
+/agent/src/ebpf/user/socket_trace_bpf_5_2.c
+/agent/src/ebpf/user/socket_trace_bpf_core.c
+/agent/src/ebpf/user/socket_trace_bpf_common.c
+/agent/src/ebpf/user/socket_trace_bpf_5_2_plus.c
+/agent/src/ebpf/user/socket_trace_bpf_kylin.c
